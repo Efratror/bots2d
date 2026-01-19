@@ -15,6 +15,7 @@ class RenderableComponent : public Component
         /**
         * Called every simulation iteration (if assigned to a Scene Object).
         */
+        using Component::onFixedUpdate;
         virtual void onFixedUpdate() = 0;
         /**
          * Enable or disable rendering.

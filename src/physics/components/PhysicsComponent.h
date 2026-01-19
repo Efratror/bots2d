@@ -29,6 +29,7 @@ public:
         m_world(world.m_world.get()) {}
     virtual ~PhysicsComponent() {
     }
+    using Component::onFixedUpdate;
     virtual void onFixedUpdate(float stepTime) = 0;
 
 protected:

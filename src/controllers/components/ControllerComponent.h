@@ -12,6 +12,7 @@ class ControllerComponent : public Component
 {
 public:
     virtual void onKeyEvent(const Event::Key &keyEvent) = 0;
+    using Component::onFixedUpdate;
     virtual void onFixedUpdate(float stepTime) = 0;
     virtual void resume() {};
     virtual ~ControllerComponent() {}
