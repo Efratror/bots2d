@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 4.0)
 project(bots2d VERSION 1.0)
 
 # Get glad from inside GLFW
