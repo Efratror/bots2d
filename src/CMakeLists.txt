@@ -32,33 +32,33 @@ set (BOTS2D_SOURCE_FILES
 )
 
 set(BOTS2D_HEADER_FILES
-    renderer/Renderer.h
-    renderer/Camera.h
-    renderer/Scalebar.h
-    renderer/GLError.h
-    renderer/AssetsHelper.h
-    renderer/VertexBuffer.h
-    renderer/IndexBuffer.h
-    renderer/VertexArray.h
-    renderer/Shader.h
-    renderer/ImGuiOverlay.h
-    renderer/Texture.h
-    renderer/components/RectComponent.h
-    renderer/components/QuadComponent.h
-    renderer/SpriteAnimation.h
-    renderer/ImGuiMenu.h
-    physics/PhysicsWorld.h
-    physics/ContactListener.h
-    physics/components/Body2D.h
-    physics/components/RangeSensor.h
-    physics/components/LineDetector.h
-    controllers/components/Microcontroller.h
-    controllers/components/CMicrocontroller.h
-    core/Application.h
-    core/Event.h
-    scene/SceneObject.h
-    scene/Scene.h
-    scene/SceneMenu.h
+    ../include/bots2d/renderer/Renderer.h
+    ../include/bots2d/renderer/Camera.h
+    ../include/bots2d/renderer/Scalebar.h
+    ../include/bots2d/renderer/GLError.h
+    ../include/bots2d/renderer/AssetsHelper.h
+    ../include/bots2d/renderer/VertexBuffer.h
+    ../include/bots2d/renderer/IndexBuffer.h
+    ../include/bots2d/renderer/VertexArray.h
+    ../include/bots2d/renderer/Shader.h
+    ../include/bots2d/renderer/ImGuiOverlay.h
+    ../include/bots2d/renderer/Texture.h
+    ../include/bots2d/renderer/components/RectComponent.h
+    ../include/bots2d/renderer/components/QuadComponent.h
+    ../include/bots2d/renderer/SpriteAnimation.h
+    ../include/bots2d/renderer/ImGuiMenu.h
+    ../include/bots2d/physics/PhysicsWorld.h
+    ../include/bots2d/physics/ContactListener.h
+    ../include/bots2d/physics/components/Body2D.h
+    ../include/bots2d/physics/components/RangeSensor.h
+    ../include/bots2d/physics/components/LineDetector.h
+    ../include/bots2d/controllers/Microcontroller.h
+    ../include/bots2d/controllers/CMicrocontroller.h
+    ../include/bots2d/core/Application.h
+    ../include/bots2d/core/Event.h
+    ../include/bots2d/scene/SceneObject.h
+    ../include/bots2d/scene/Scene.h
+    ../include/bots2d/scene/SceneMenu.h
 )
 
 set(EXTERNAL_SOURCE_FILES
@@ -76,7 +76,6 @@ add_library(bots2d STATIC
     ${EXTERNAL_SOURCE_FILES}
 )
 
-target_include_directories(bots2d PRIVATE core)
 target_include_directories(bots2d PRIVATE renderer)
 target_include_directories(bots2d PRIVATE transforms)
 target_include_directories(bots2d PRIVATE physics)
@@ -93,6 +92,7 @@ target_include_directories(bots2d
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
   PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_SOURCE_DIR}/../include/bots2d
 )
 
 # Build box2d and glfw  as static libraries

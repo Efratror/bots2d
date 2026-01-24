@@ -1,7 +1,7 @@
 #include "SceneMenu.h"
 #include "ImGuiOverlay.h"
 #include "Camera.h"
-#include "Application.h"
+#include "core/Application.h"
 
 SceneMenu::SceneMenu(Scene*& scene) :
     m_currentScene(scene)
