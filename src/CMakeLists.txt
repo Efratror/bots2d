@@ -76,7 +76,6 @@ add_library(bots2d STATIC
     ${EXTERNAL_SOURCE_FILES}
 )
 
-target_include_directories(bots2d PRIVATE transforms)
 target_include_directories(bots2d PRIVATE ../external/glfw/deps)
 target_include_directories(bots2d PRIVATE ../external/stb)
 target_include_directories(bots2d PRIVATE ../external/glm)

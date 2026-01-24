@@ -3,7 +3,7 @@
 #include "renderer/components/RenderableComponent.h"
 #include "physics/components/PhysicsComponent.h"
 #include "controllers/ControllerComponent.h"
-#include "components/Transforms.h"
+#include "transforms/Transforms.h"
 
 #include <cassert>
 

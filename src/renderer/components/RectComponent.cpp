@@ -1,6 +1,6 @@
 #include "renderer/components/RectComponent.h"
 #include "renderer/Renderer.h"
-#include "components/Transforms.h"
+#include "transforms/Transforms.h"
 #include "renderer/TexCoords.h"
 #include "renderer/Texture.h"
 #include "renderer/SpriteAnimation.h"

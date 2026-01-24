@@ -3,7 +3,7 @@
 #include <box2d/box2d.h>
 
 #include "physics/components/Body2D.h"
-#include "components/Transforms.h"
+#include "transforms/Transforms.h"
 
 namespace {
 constexpr float debugDrawWidth = 0.001f;
