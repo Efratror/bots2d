@@ -1,6 +1,6 @@
 #include "renderer/ImGuiMenu.h"
 #include "renderer/ImGuiOverlay.h"
-#include "Scene.h"
+#include "scene/Scene.h"
 #include <cassert>
 
 

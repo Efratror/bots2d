@@ -1,5 +1,5 @@
-#include "Scene.h"
-#include "SceneObject.h"
+#include "scene/Scene.h"
+#include "scene/SceneObject.h"
 #include "renderer/ImGuiMenu.h"
 
 Scene::Scene(std::string description) :

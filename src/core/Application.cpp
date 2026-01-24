@@ -1,11 +1,11 @@
 #include "core/Application.h"
 #include "renderer/Renderer.h"
-#include "Scene.h"
+#include "scene/Scene.h"
 #include "renderer/ImGuiOverlay.h"
 #include "renderer/GLError.h"
 #include "core/Event.h"
 #include "renderer/Camera.h"
-#include "SceneMenu.h"
+#include "scene/SceneMenu.h"
 
 /* Glad must be included before any OpenGL stuff */
 #define GLFW_INCLUDE_NONE
