@@ -2,7 +2,7 @@
 #include "Scene.h"
 #include "components/RenderableComponent.h"
 #include "components/PhysicsComponent.h"
-#include "components/ControllerComponent.h"
+#include "controllers/ControllerComponent.h"
 #include "components/Transforms.h"
 
 #include <cassert>

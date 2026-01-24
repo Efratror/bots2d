@@ -1,8 +1,8 @@
 #ifndef CONTROLLER_COMPONENT_H_
 #define CONTROLLER_COMPONENT_H_
 
-#include "Component.h"
-#include "Event.h"
+#include "core/Component.h"
+#include "core/Event.h"
 
 /**
  * Base class for components that implement control behaviour based on

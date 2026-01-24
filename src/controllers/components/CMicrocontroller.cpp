@@ -1,7 +1,7 @@
-#include "components/CMicrocontroller.h"
+#include "controllers/CMicrocontroller.h"
 
 extern "C" {
-#include "microcontroller_c_setup.h"
+#include "controllers/microcontroller_c_setup.h"
 }
 
 CMicrocontroller::CMicrocontroller(Microcontroller::VoltageLines &voltageLines, main_function mainFcn) :
