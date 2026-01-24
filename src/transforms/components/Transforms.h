@@ -2,7 +2,7 @@
 #define TRANSFORMS_H_
 
 #include "core/Component.h"
-#include "QuadCoords.h"
+#include "renderer/QuadCoords.h"
 
 #include <glm/glm.hpp>
 

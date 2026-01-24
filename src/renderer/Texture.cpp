@@ -1,6 +1,6 @@
-#include "Texture.h"
-#include "GLError.h"
-#include "AssetsHelper.h"
+#include "renderer/Texture.h"
+#include "renderer/GLError.h"
+#include "renderer/AssetsHelper.h"
 
 #include <glad/gl.h>
 #include "stb_image.h"

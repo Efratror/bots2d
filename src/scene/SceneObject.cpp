@@ -1,6 +1,6 @@
 #include "SceneObject.h"
 #include "Scene.h"
-#include "components/RenderableComponent.h"
+#include "renderer/components/RenderableComponent.h"
 #include "physics/components/PhysicsComponent.h"
 #include "controllers/ControllerComponent.h"
 #include "components/Transforms.h"

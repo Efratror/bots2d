@@ -1,8 +1,8 @@
 #ifndef HOLLOW_CIRCLE_COMPONENT_H_
 #define HOLLOW_CIRCLE_COMPONENT_H_
 
-#include "Renderer.h"
-#include "components/RenderableComponent.h"
+#include "../Renderer.h"
+#include "RenderableComponent.h"
 #include "components/Transforms.h"
 
 #include <cassert>

@@ -1,10 +1,10 @@
 #include "core/Application.h"
-#include "Renderer.h"
+#include "renderer/Renderer.h"
 #include "Scene.h"
-#include "ImGuiOverlay.h"
-#include "GLError.h"
+#include "renderer/ImGuiOverlay.h"
+#include "renderer/GLError.h"
 #include "core/Event.h"
-#include "Camera.h"
+#include "renderer/Camera.h"
 #include "SceneMenu.h"
 
 /* Glad must be included before any OpenGL stuff */

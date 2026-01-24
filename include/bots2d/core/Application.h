@@ -5,7 +5,7 @@
 #include <string>
 #include <memory>
 
-#include "Scalebar.h"
+#include "renderer/Scalebar.h"
 
 class Scene;
 class SceneMenu;

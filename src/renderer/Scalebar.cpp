@@ -1,6 +1,6 @@
-#include "Scalebar.h"
-#include "Renderer.h"
-#include "Camera.h"
+#include "renderer/Scalebar.h"
+#include "renderer/Renderer.h"
+#include "renderer/Camera.h"
 
 
 Scalebar::ScalebarRenderable::ScalebarRenderable(std::string textureName, float width, float height) :

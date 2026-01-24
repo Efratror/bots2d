@@ -1,7 +1,7 @@
-#include "Camera.h"
-#include "Renderer.h"
-#include "Texture.h"
-#include "TexCoords.h"
+#include "renderer/Camera.h"
+#include "renderer/Renderer.h"
+#include "renderer/Texture.h"
+#include "renderer/TexCoords.h"
 
 namespace {
     const float positionStepSize = 20.0f;

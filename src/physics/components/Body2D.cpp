@@ -2,7 +2,7 @@
 #include "components/Transforms.h"
 #include "physics/PhysicsWorld.h"
 #include "physics/Body2DUserData.h"
-#include "QuadCoords.h"
+#include "renderer/QuadCoords.h"
 
 #include <box2d/box2d.h>
 #include <glm/ext/scalar_constants.hpp>

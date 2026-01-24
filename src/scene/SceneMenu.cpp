@@ -1,6 +1,6 @@
 #include "SceneMenu.h"
-#include "ImGuiOverlay.h"
-#include "Camera.h"
+#include "renderer/ImGuiOverlay.h"
+#include "renderer/Camera.h"
 #include "core/Application.h"
 
 SceneMenu::SceneMenu(Scene*& scene) :

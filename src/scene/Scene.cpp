@@ -1,6 +1,6 @@
 #include "Scene.h"
 #include "SceneObject.h"
-#include "ImGuiMenu.h"
+#include "renderer/ImGuiMenu.h"
 
 Scene::Scene(std::string description) :
     m_description(description)
