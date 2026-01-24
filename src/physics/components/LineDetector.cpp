@@ -1,5 +1,5 @@
-#include "components/LineDetector.h"
-#include "components/Body2D.h"
+#include "physics/components/LineDetector.h"
+#include "physics/components/Body2D.h"
 #include "components/Transforms.h"
 
 namespace {

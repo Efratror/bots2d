@@ -1,8 +1,8 @@
-#include "components/RangeSensor.h"
+#include "physics/components/RangeSensor.h"
 
 #include <box2d/box2d.h>
 
-#include "components/Body2D.h"
+#include "physics/components/Body2D.h"
 #include "components/Transforms.h"
 
 namespace {

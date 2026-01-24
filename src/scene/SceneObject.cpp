@@ -1,7 +1,7 @@
 #include "SceneObject.h"
 #include "Scene.h"
 #include "components/RenderableComponent.h"
-#include "components/PhysicsComponent.h"
+#include "physics/components/PhysicsComponent.h"
 #include "controllers/ControllerComponent.h"
 #include "components/Transforms.h"
 

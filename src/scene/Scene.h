@@ -2,7 +2,7 @@
 #define SCENE_H_
 
 #include "core/Event.h"
-#include "PhysicsWorld.h"
+#include "physics/PhysicsWorld.h"
 #include <vector>
 #include <memory>
 #include <string>

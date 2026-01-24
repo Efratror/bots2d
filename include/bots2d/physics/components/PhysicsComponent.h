@@ -1,8 +1,8 @@
 #ifndef PHYSICS_COMPONENT_H
 #define PHYSICS_COMPONENT_H
 
-#include "PhysicsWorld.h"
-#include "Component.h"
+#include "../PhysicsWorld.h"
+#include "core/Component.h"
 
 /**
  * Base class for translating from physics data to transform data.

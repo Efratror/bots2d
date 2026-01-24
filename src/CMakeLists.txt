@@ -78,7 +78,6 @@ add_library(bots2d STATIC
 
 target_include_directories(bots2d PRIVATE renderer)
 target_include_directories(bots2d PRIVATE transforms)
-target_include_directories(bots2d PRIVATE physics)
 target_include_directories(bots2d PRIVATE scene)
 target_include_directories(bots2d PRIVATE ../external/glfw/deps)
 target_include_directories(bots2d PRIVATE ../external/stb)
