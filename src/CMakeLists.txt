@@ -82,8 +82,9 @@ target_include_directories(bots2d PRIVATE ../external/glm)
 target_include_directories(bots2d PRIVATE ../external/imgui)
 
 target_include_directories(bots2d
-  PUBLIC
+  INTERFACE
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>
+  PUBLIC
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
   PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
