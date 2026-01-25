@@ -1,6 +1,6 @@
-#include "Shader.h"
+#include "renderer/Shader.h"
 #include <glad/gl.h>
-#include "GLError.h"
+#include "renderer/GLError.h"
 
 #include <cassert>
 #include <iostream>

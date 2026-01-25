@@ -1,5 +1,5 @@
-#include "VertexBuffer.h"
-#include "GLError.h"
+#include "renderer/VertexBuffer.h"
+#include "renderer/GLError.h"
 #include <glad/gl.h>
 #include <cassert>
 

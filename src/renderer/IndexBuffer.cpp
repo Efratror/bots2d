@@ -1,6 +1,6 @@
-#include "IndexBuffer.h"
+#include "renderer/IndexBuffer.h"
 #include <glad/gl.h>
-#include "GLError.h"
+#include "renderer/GLError.h"
 #include <cassert>
 
 IndexBuffer::IndexBuffer(const unsigned int *data, unsigned int count)

@@ -1,6 +1,6 @@
-#include "microcontroller_c_bindings.h"
-#include "microcontroller_c_setup.h"
-#include "components/Microcontroller.h"
+#include "controllers/microcontroller_c_bindings.h"
+#include "controllers/microcontroller_c_setup.h"
+#include "controllers/Microcontroller.h"
 #include <stddef.h>
 
 /** Can only be used by a single C microcontroller at a time */

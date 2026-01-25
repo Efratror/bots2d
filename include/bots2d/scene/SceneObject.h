@@ -1,7 +1,7 @@
 #ifndef SCENE_OBJECT_H_
 #define SCENE_OBJECT_H_
 
-#include "Event.h"
+#include "core/Event.h"
 #include <memory>
 
 class TransformComponent;

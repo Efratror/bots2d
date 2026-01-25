@@ -1,8 +1,8 @@
 #ifndef QUAD_COMPONENT_H_
 #define QUAD_COMPONENT_H_
 
-#include "components/RenderableComponent.h"
-#include "QuadCoords.h"
+#include "RenderableComponent.h"
+#include "../QuadCoords.h"
 
 #include <glm/glm.hpp>
 

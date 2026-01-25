@@ -1,5 +1,5 @@
-#include "PhysicsWorld.h"
-#include "ContactListener.h"
+#include "physics/PhysicsWorld.h"
+#include "physics/ContactListener.h"
 
 #include "box2d/box2d.h"
 #include <cassert>

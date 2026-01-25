@@ -1,6 +1,6 @@
-#include "components/Transforms.h"
-#include "components/QuadComponent.h"
-#include "Renderer.h"
+#include "transforms/Transforms.h"
+#include "renderer/components/QuadComponent.h"
+#include "renderer/Renderer.h"
 
 QuadComponent::QuadComponent(const QuadTransform *transform, const glm::vec4 &color) :
     m_transform(transform),

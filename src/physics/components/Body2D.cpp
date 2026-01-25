@@ -1,8 +1,8 @@
-#include "components/Body2D.h"
-#include "components/Transforms.h"
-#include "PhysicsWorld.h"
-#include "Body2DUserData.h"
-#include "QuadCoords.h"
+#include "physics/components/Body2D.h"
+#include "transforms/Transforms.h"
+#include "physics/PhysicsWorld.h"
+#include "physics/Body2DUserData.h"
+#include "renderer/QuadCoords.h"
 
 #include <box2d/box2d.h>
 #include <glm/ext/scalar_constants.hpp>

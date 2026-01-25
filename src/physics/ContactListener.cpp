@@ -1,5 +1,5 @@
-#include "ContactListener.h"
-#include "Body2DUserData.h"
+#include "physics/ContactListener.h"
+#include "physics/Body2DUserData.h"
 
 void ContactListener::updateLineDetector(b2Contact *contact, bool begin)
 {

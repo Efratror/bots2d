@@ -2,7 +2,7 @@
 #define LINE_DETECTOR_H_
 
 #include "PhysicsComponent.h"
-#include "Body2DUserData.h"
+#include "../Body2DUserData.h"
 
 class Body2D;
 class b2Body;

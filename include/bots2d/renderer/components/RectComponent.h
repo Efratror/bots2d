@@ -1,7 +1,7 @@
 #ifndef RECT_COMPONENT_H_
 #define RECT_COMPONENT_H_
 
-#include "components/RenderableComponent.h"
+#include "RenderableComponent.h"
 
 #include <glm/glm.hpp>
 #include <string>

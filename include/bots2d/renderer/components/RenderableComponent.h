@@ -1,7 +1,7 @@
 #ifndef RENDERABLE_COMPONENT_H_
 #define RENDERABLE_COMPONENT_H_
 
-#include "Component.h"
+#include "core/Component.h"
 #include <glm/glm.hpp>
 
 /**

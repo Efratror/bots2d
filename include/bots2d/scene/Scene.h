@@ -1,8 +1,8 @@
 #ifndef SCENE_H_
 #define SCENE_H_
 
-#include "Event.h"
-#include "PhysicsWorld.h"
+#include "core/Event.h"
+#include "physics/PhysicsWorld.h"
 #include <vector>
 #include <memory>
 #include <string>

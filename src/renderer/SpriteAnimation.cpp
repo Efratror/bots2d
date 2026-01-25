@@ -1,4 +1,4 @@
-#include "SpriteAnimation.h"
+#include "renderer/SpriteAnimation.h"
 
 namespace {
     float maxFloatRoundingError = 0.001f;

@@ -1,8 +1,8 @@
 #ifndef TRANSFORMS_H_
 #define TRANSFORMS_H_
 
-#include "Component.h"
-#include "QuadCoords.h"
+#include "core/Component.h"
+#include "renderer/QuadCoords.h"
 
 #include <glm/glm.hpp>
 

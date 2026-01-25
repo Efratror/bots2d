@@ -1,6 +1,6 @@
-#include "components/LineDetector.h"
-#include "components/Body2D.h"
-#include "components/Transforms.h"
+#include "physics/components/LineDetector.h"
+#include "physics/components/Body2D.h"
+#include "transforms/Transforms.h"
 
 namespace {
     constexpr float drawRadiusUndetected = 0.001f;

@@ -1,9 +1,9 @@
-#include "components/RectComponent.h"
-#include "Renderer.h"
-#include "components/Transforms.h"
-#include "TexCoords.h"
-#include "Texture.h"
-#include "SpriteAnimation.h"
+#include "renderer/components/RectComponent.h"
+#include "renderer/Renderer.h"
+#include "transforms/Transforms.h"
+#include "renderer/TexCoords.h"
+#include "renderer/Texture.h"
+#include "renderer/SpriteAnimation.h"
 
 RectComponent::RectComponent(const RectTransform *transform, const glm::vec4& color) :
     m_quadTransform(transform),
